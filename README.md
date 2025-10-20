@@ -22,7 +22,7 @@ Go to www folder
 cd /var/www
 ```
 
-Check all project list
+Check all the project list
 
 ```js
 ls;
@@ -30,7 +30,7 @@ ls;
 
 ## Step-3
 
-Clone your github project (have to clone the SSH file)
+Clone your github project ( have to clone the SSH file )
 
 ```js
 git clone (the SSH link)

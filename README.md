@@ -36,3 +36,22 @@ Clone your github project ( have to clone the SSH file )
 git clone (the SSH link)
 example: git clone git@github.com:husnearaa/VPS-Project-Deploy.git
 ```
+
+## Step-4
+
+```js
+ls;
+```
+
+```js
+cd vps-project-deploy/
+```
+
+```js
+npm i
+```
+
+```js
+npm run build
+```
+

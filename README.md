@@ -55,3 +55,28 @@ npm i
 npm run build
 ```
 
+## Step-5
+
+```js
+sudo ufw enable
+```
+
+```js
+sudo ufw status
+```
+
+```js
+sudo ufw allow 5008
+```
+
+```js
+sudo ufw status
+```
+
+```js
+npm run start
+```
+
+```js
+sudo ufw reload
+```

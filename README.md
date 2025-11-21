@@ -80,3 +80,21 @@ npm run start
 ```js
 sudo ufw reload
 ```
+
+## Step-6
+
+```js
+npm i -g pm2
+```
+
+```js
+pm2 start npm --name "vps-project-deploy" -- start
+```
+
+```js
+pm2 logs vps-project-deploy
+```
+
+```js
+pm2 ls
+```

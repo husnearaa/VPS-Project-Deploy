@@ -98,3 +98,31 @@ pm2 logs vps-project-deploy
 ```js
 pm2 ls
 ```
+
+
+# After Successfully Deploy — For Redeploy, Follow These Steps
+
+```bash
+git pull
+```
+Fetch and merge the latest code updates from GitHub.
+
+```bash
+npm i
+```
+Reinstall dependencies if there are any new changes.
+
+```bash
+npm run build
+```
+Rebuild your project to apply the new code changes.
+
+```bash
+pm2 ls
+```
+Check your PM2 process list to find the app ID.
+
+```bash
+pm2 restart <id_no>
+```
+Restart your specific app using its PM2 ID to apply the latest version.
